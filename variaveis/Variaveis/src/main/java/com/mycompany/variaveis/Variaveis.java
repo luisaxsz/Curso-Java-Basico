@@ -31,5 +31,11 @@ public class Variaveis {
         char i = 105;
         
         System.out.println("" + o + i);
+        
+        boolean verdadeiro = true;
+        boolean falso = false;
+        
+        System.out.println("Verdadeiro: " + verdadeiro);
+        System.out.println("Falso: " + falso);
     }
 }
