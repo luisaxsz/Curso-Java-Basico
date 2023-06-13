@@ -13,7 +13,7 @@ public class Variaveis {
     public static void main(String[] args) {
         byte idade01 = 20;
         short idade02 = 21;
-        int idade03 = 32;
+        int idade03 = 67;
         long idade04 = 23;
         
         System.out.println("Idade 1: " + idade01);
@@ -35,7 +35,7 @@ public class Variaveis {
         boolean verdadeiro = true;
         boolean falso = false;
         
-        System.out.println("Verdadeiro: " + verdadeiro);
-        System.out.println("Falso: " + falso);
+        System.out.println("Verdadeiro:\t" + verdadeiro);
+        System.out.println("Falso:\n" + falso);
     }
 }
