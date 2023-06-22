@@ -49,7 +49,7 @@ public class ExerciciosRepeticao {
         int valorAnterior02 = 0;
         int proximoValor02 = 1;
         int n02 = 0;
-        while(n02 <= 500){
+        while(n02 < 500){
             n02 = valorAnterior02 + proximoValor02;
             valorAnterior02 = proximoValor02;
             proximoValor02 = n02;
