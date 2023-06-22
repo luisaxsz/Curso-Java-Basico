@@ -15,7 +15,7 @@ public class Questoes15A18 {
        //Scanner
        Scanner scan = new Scanner(System.in);
        
-       /*//Questao 15
+       //Questao 15
        System.out.println("Quantas horas você trabalhou no mês?");
        double horasTrabalhadas = scan.nextDouble();
        System.out.println("Quanto você ganha por hora trabalhada?");
@@ -42,7 +42,7 @@ public class Questoes15A18 {
        double latas = Math.round(litros/18);
        double valorFinal = latas * 80;
        System.out.println("Você precisa de " + latas + " latas");
-       System.out.println("O valor final é de: R$" + valorFinal);*/  
+       System.out.println("O valor final é de: R$" + valorFinal); 
        
        //Questão 17 
        System.out.println("***Loja de tinta***");
@@ -65,8 +65,7 @@ public class Questoes15A18 {
         System.out.println("Você precisa de " + latas02 + " latas");
         System.out.println("O valor final é de: R$" + valorFinal02);  
        }
-       
-       
+      
    }
    
 }
