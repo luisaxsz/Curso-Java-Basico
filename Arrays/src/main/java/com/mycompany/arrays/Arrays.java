@@ -16,7 +16,7 @@ public class Arrays {
         
         Scanner scan = new Scanner(System.in);
         
-        /*//Questao 1 - aula 19
+        //Questao 1 - aula 19
         int inteirosA[] = new int[5];
         int inteirosB[] = new int[5];
 
@@ -29,7 +29,7 @@ public class Arrays {
         for (int i = 0; i < inteirosA.length; i++) {
             inteirosB[i] = inteirosA[i];
             System.out.println(inteirosB[i]);
-        }*/
+        }
         
         //Questao 19 - aula 19
         double notas1[] = new double [10];
