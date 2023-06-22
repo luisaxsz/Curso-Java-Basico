@@ -18,7 +18,7 @@ public class ExerciciosRepeticao {
         //Scanner
         Scanner scan = new Scanner(System.in);
         
-        /*//Questao 12 - Aula 16 17
+        //Questao 12 - Aula 16 17
         System.out.println("Digite um numero : ");
         int numero = scan.nextInt();
         if (numero > 0 && numero <= 10){
@@ -42,7 +42,7 @@ public class ExerciciosRepeticao {
             proximoValor = n;
             
             System.out.println(n);
-        }*/
+        }
         
         //Questao 16 - Aula 16 
         System.out.println("***Fibonacci 002**");
