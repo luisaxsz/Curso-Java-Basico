@@ -11,6 +11,18 @@ package com.mycompany.vetores;
 public class Vetores {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int arrayA[] = new int [5];
+        int arrayB[] = new int[5];
+        arrayB[0] = 1; 
+        arrayB[1] = 2;
+        arrayB[2] = 3;
+        arrayB[3] = 4;
+        arrayB[4] = 5;
+        
+        arrayA[] = arrayB[]; 
+        
+        for (int i = 0 ; i <=5 ; i++){
+          System.out.println(arrayA[i]);
+        }
     }
 }
