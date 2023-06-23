@@ -69,7 +69,6 @@ public class Matrizes {
         System.out.println("O maior da coluna 7 é : " + maiorC7);
         System.out.println("O menor da coluna 7 é : " + menorC7);
 
-
         //Questao 3 - Aula 20
         int matriz02[][] = new int[3][3];
         int countPares = 0;
@@ -96,15 +95,14 @@ public class Matrizes {
         System.out.println("A quantidade de numeros pares é: " + countPares);
         System.out.println("A quantidade de numeros impares é: " + countImpares);
 
-        
         //Questao  4 - Aula 20
         System.out.println("====Agenda Pessoal====");
-        String [][] matriz03 = new String[2][3];
-        
-        for (int i = 0; i < matriz03.length ; i++){
-            for(int j = 0 ; j < matriz03.length; j++){
+        String[][] matriz03 = new String[2][3];
+
+        for (int i = 0; i < matriz03.length; i++) {
+            for (int j = 0; j < matriz03.length; j++) {
                 System.out.println("Adicione um compromisso: ");
-                String compromisso = scan.nextLine();            
+                String compromisso = scan.nextLine();
             }
         }
     }
