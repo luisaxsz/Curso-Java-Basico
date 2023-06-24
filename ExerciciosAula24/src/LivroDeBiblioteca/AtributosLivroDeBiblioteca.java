@@ -14,10 +14,10 @@ public class AtributosLivroDeBiblioteca {
 		
 		System.out.println("Nome do Livro: " + romance.nome);
 		System.out.println("Autora: " + romance.autor);
-		System.out.println( "Ano Lançamento: " + romance.anoLancamento);
+		System.out.println("Ano Lançamento: " + romance.anoLancamento);
 		System.out.println("Editora: " + romance.editoraLancamento);
 		System.out.println("Quantidade de Paginas: " + romance.qntPaginas);
-		System.out.println("Edição: " + romance.numeroDaEdicao);
-		System.out.println("Código do livro: " + romance.cod);
+		System.out.println("Edicao: " + romance.numeroDaEdicao);
+		System.out.println("Codigo do livro: " + romance.cod);
 	}
 }
