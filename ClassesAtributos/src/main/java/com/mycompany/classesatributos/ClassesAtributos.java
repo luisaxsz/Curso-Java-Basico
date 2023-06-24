@@ -12,8 +12,5 @@ public class ClassesAtributos {
    String marca;
    String modelo;
    int numPassageiros;
-   double capacidadeCombustivel;
-   double consumoCombustivel;
-   
-    
+   double capacidadeCombustivel; 
 }
