@@ -9,8 +9,11 @@ package com.mycompany.classesatributos;
  * @author maria
  */
 public class ClassesAtributos {
-
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+   String marca;
+   String modelo;
+   int numPassageiros;
+   double capacidadeCombustivel;
+   double consumoCombustivel;
+   
+    
 }
