@@ -1,4 +1,4 @@
-package ClassesMetodo;
+package ClassesMetodoSimples;
 
 public class Carro {
 	   String marca;

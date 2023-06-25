@@ -1,4 +1,4 @@
-package ClassesMetodo;
+package ClassesMetodoSimples;
 
 public class AtributosCarro {
 	public static void main(String[] args) {

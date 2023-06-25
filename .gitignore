@@ -59,3 +59,5 @@ ClassesMetodosSimples/bin/ClassesMetodoSimples/Carro.class
 ClassesMetodosSimples/bin/ClassesMetodoSimples/AtributosCarro.class
 ClassesMetodosSimples/bin/ClassesMetodo/AtributosCarro.class
 *.class
+ClassesMetodos/.classpath
+ClassesMetodos/.project
