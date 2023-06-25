@@ -3,8 +3,16 @@ package Lampada;
 public class AtributosLampada {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Lampada led = new Lampada();
+		led.marca = "Avant";
+		led.tipo = "Led";
+		led.vidaUtil = 50;
+		led.preco = 4.5;
+		
+	
+		System.out.println(led.escolherModo(0));
+		
+		
 	}
 
 }
