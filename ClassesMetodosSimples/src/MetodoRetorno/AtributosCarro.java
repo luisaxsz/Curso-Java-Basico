@@ -1,8 +1,8 @@
-package ClassesMetodoSimples;
+package MetodoRetorno;
 
 public class AtributosCarro {
 	public static void main(String[] args) {
-		
+
 		Carro van = new Carro();
 		van.marca = "fiat";
 		van.modelo = "ducato";
@@ -10,7 +10,12 @@ public class AtributosCarro {
 		van.capacidadeCombustivel = 100;
 		van.consumoCombustivel = 0.2;
 		
-		van.exibirAutonomia();
+		van.obterAutonomia();
+		
+		double autonomia = van.obterAutonomia();
+		
+		System.out.println("A autonomia do carro é: " + autonomia);
+
+		
 	}
-   
 }
