@@ -8,7 +8,7 @@ public class Carro {
 	double consumoCombustivel;
 	
 	public Carro(String marca, String modelo, int numPassageiros) {
-		super();
+		super(); 
 		this.marca = marca;
 		this.modelo = modelo;
 		this.numPassageiros = numPassageiros;
@@ -26,8 +26,7 @@ public class Carro {
 	}
 
 
-
 	void exibirAutonomia() {
-		System.out.println("A autonomia do carro é: " + capacidadeCombustivel * consumoCombustivel + "KM");
+		System.out.println("A autonomia do carro é: " + this.capacidadeCombustivel * this.consumoCombustivel + "KM");
 	}
 }
