@@ -37,7 +37,7 @@ public class TesteContatos {
 		casa.setNumero("7777-7777");
 		casa.setDdd("91");
 		
-		//Colocar em arrray de telefone
+		//Colocar em array de telefone
 		
 		Telefone[] telefones = new Telefone[2];
 		
