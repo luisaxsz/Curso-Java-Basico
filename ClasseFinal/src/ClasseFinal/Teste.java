@@ -7,6 +7,8 @@ public class Teste {
 			Aluno aluno = new Aluno();
 			Professor professor = new Professor();
 			Pessoa pessoa = new Pessoa();
+			
+			System.out.println(Constantes.URL_BLOG);
 
 	}
 
